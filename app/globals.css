@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #00b140;
+  --secondary: #1a1a1a;
+  --accent: #f0f4f8;
+  --yellow: #ffd700;
+  --blue: #0088cc;
+}
+
+body {
+  @apply bg-white text-gray-900;
+}
+
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+.gradient-glow {
+  background: radial-gradient(circle at center, rgba(0, 177, 64, 0.2) 0%, rgba(0, 177, 64, 0) 70%);
+}
